@@ -10,20 +10,13 @@ const Hero = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center relative">
         {/* Text Content */}
         <div className="md:w-1/2 mb-10 md:mb-0">
-          <h1 className="text-4xl md:text-5xl font-bold text-dark mb-6">
-            Organic & Natural Foods for a Healthier You
+          <h1 className="text-4xl md:text-5xl font-bold text-orange-600 text-center">
+            Why Mom’s Natural Foods?
           </h1>
-          <p className="text-lg text-gray-700 mb-8">
-            We offer the freshest organic produce, natural groceries, and health products to nourish your body and soul.
+          <p className="text-lg text-gray-700 mb-8 text-center">
+           We make MOM’S natural foods for people that won’t compromise between healthy and delicious. We want our product to be affordable and widely available for everyone. All ingredients that we use could be easily read, understood, and pronounced. Mom’s doesn’t have any chemical additives, coloring, flavoring, and sugar. We believe that it is very important to read the ingredients of the product carefully before you buy one. So we created types of granola, muesli & cookie as simple as, delicious, and as original as prepared by mothers.
           </p>
-          <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-            <Link href="/products" className="bg-primary text-white px-6 py-3 rounded-md font-medium hover:bg-opacity-90 transition text-center">
-              Shop Products
-            </Link>
-            <Link href="/about" className="border border-primary text-primary px-6 py-3 rounded-md font-medium hover:bg-primary hover:text-white transition text-center">
-              Learn More
-            </Link>
-          </div>
+       
         </div>
 
         {/* Animated Product Features */}

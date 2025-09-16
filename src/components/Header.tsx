@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md">
-      <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
+      <nav className="container h-17 flex justify-between items-center">
         <Link href="/" className="flex items-center">
         <div>
            <Image 
@@ -30,41 +30,39 @@ const Header = () => {
         <div className="hidden md:flex space-x-8">
           <Link 
             href="/" 
-            className={`nav-link ${pathname === '/' ? 'text-primary font-medium' : 'text-dark hover:text-primary'} font-medium`}
+            className={`nav-link ${pathname === '/' ? 'text-orange-300 font-medium' : 'text-dark hover:text-orange-300'} font-medium`}
           >
             Home
           </Link>
           <Link 
             href="/about" 
-            className={`nav-link ${pathname === '/about' ? 'text-primary font-medium' : 'text-dark hover:text-primary'} font-medium`}
+            className={`nav-link ${pathname === '/about' ? 'text-orange-300 font-medium' : 'text-dark hover:text-orange-300'} font-medium`}
           >
             About
           </Link>
           <Link 
             href="/products" 
-            className={`nav-link ${pathname === '/products' ? 'text-primary font-medium' : 'text-dark hover:text-primary'} font-medium`}
+            className={`nav-link ${pathname === '/products' ? 'text-orange-300 font-medium' : 'text-dark hover:text-orange-300'} font-medium`}
           >
             Products
           </Link>
           <Link 
             href="/contact" 
-            className={`nav-link ${pathname === '/contact' ? 'text-primary font-medium' : 'text-dark hover:text-primary'} font-medium`}
+            className={`nav-link ${pathname === '/contact' ? 'text-orange-300 font-medium' : 'text-dark hover:text-orange-300'} font-medium`}
           >
             Contact
           </Link>
         </div>
         
         <div className="flex items-center space-x-4">
-          <Link href="/products" className="bg-primary text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition">
-            Shop Now
-          </Link>
+          
           
           {/* Mobile Menu Button */}
           <button 
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-6 h-6 text-orange-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {isMenuOpen ? (
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               ) : (
@@ -81,28 +79,28 @@ const Header = () => {
           <div className="flex flex-col space-y-4">
             <Link 
               href="/" 
-              className={`${pathname === '/' ? 'text-primary font-medium' : 'text-dark hover:text-primary'} font-medium py-2`}
+              className={`${pathname === '/' ? 'text-orange-300 font-medium' : 'text-dark hover:text-orange-300'} font-medium py-2`}
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </Link>
             <Link 
               href="/about" 
-              className={`${pathname === '/about' ? 'text-primary font-medium' : 'text-dark hover:text-primary'} font-medium py-2`}
+              className={`${pathname === '/about' ? 'text-orange-300 font-medium' : 'text-dark hover:text-orange-300'} font-medium py-2`}
               onClick={() => setIsMenuOpen(false)}
             >
               About
             </Link>
             <Link 
               href="/products" 
-              className={`${pathname === '/products' ? 'text-primary font-medium' : 'text-dark hover:text-primary'} font-medium py-2`}
+              className={`${pathname === '/products' ? 'text-orange-300 font-medium' : 'text-dark hover:text-orange-300'} font-medium py-2`}
               onClick={() => setIsMenuOpen(false)}
             >
               Products
             </Link>
             <Link 
               href="/contact" 
-              className={`${pathname === '/contact' ? 'text-primary font-medium' : 'text-dark hover:text-primary'} font-medium py-2`}
+              className={`${pathname === '/contact' ? 'text-orange-300 font-medium' : 'text-dark hover:text-orange-300'} font-medium py-2`}
               onClick={() => setIsMenuOpen(false)}
             >
               Contact

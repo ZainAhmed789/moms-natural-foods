@@ -22,10 +22,11 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Contact Us</h4>
             <address className="not-italic text-gray-400">
-              <p>123 Organic Way</p>
-              <p>Green City, GC 12345</p>
-              <p className="mt-2">Phone: (123) 456-7890</p>
-              <p>Email: info@momsnaturalfoods.com</p>
+              <p>Güzeller OSB. Alp Tegin Sok. No:7 Gebze 41400 Kocaeli | TURKEY</p>
+              <p className="mt-2">Phone:+902122812801</p>
+              <p>Email: umit@momsnaturalfoods.com.tr
+  
+</p>
             </address>
           </div>
           <div>

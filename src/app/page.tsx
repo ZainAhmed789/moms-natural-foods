@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
-import Products from '../components/Products';
+import ProductCarousel from '../components/ProductCarousel';
 import About from '../components/About';
 import CTA from '../components/CTA';
 import Footer from '../components/Footer';
@@ -11,9 +11,10 @@ export default function Home() {
     <div className="min-h-screen bg-light">
       <Header />
       <main>
+         <ProductCarousel />
         <Hero />
         <Features />
-        <Products />
+        
         <About />
         <CTA />
       </main>
